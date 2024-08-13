@@ -2,9 +2,6 @@ import sys
 from us_visa.exception import USvisaException
 from us_visa.logger import logger
 from us_visa.components.data_ingestion import DataIngestion
-from us_visa.components.data_validation import DataValidation
-from us_visa.components.data_transformation import DataTransformation
-from us_visa.components.model_trainer import ModelTrainer
 
 
 from us_visa.entity.config_entity import (DataIngestionConfig,
